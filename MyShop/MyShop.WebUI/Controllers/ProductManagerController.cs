@@ -23,7 +23,7 @@ namespace MyShop.WebUI.Controllers
             return View(products);
         }
 
-      /*  public ActionResult Create()
+        public ActionResult Create()
         {
             Product product = new Product();
             return View(product);
@@ -116,7 +116,7 @@ namespace MyShop.WebUI.Controllers
                 context.Delete(Id);
                 context.Commit();
                 return RedirectToAction("Index");
-            } */
+            } 
         }
     }
 }
